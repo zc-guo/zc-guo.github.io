@@ -1823,6 +1823,10 @@ input, select, textarea {
 		opacity: 0.6;
 	}
 
+		.item-icon a {
+			text-decoration: none;
+		}
+
 		.item-icon:hover {
 			opacity: 1.0;
 		}
@@ -1832,6 +1836,7 @@ input, select, textarea {
     	height: 8.0em;
     	vertical-align: middle;
 	}
+
 
 		.helper-icon + div{
     		display: inline-block;
@@ -1844,6 +1849,16 @@ input, select, textarea {
     		text-align: justify;
     		vertical-align: middle;
     		line-height: 0.5em;
+		}
+
+		.helper-icon + div p + pre {
+			white-space: pre-line;
+			display: block;
+    		color: white;
+    		text-align: center;
+    		vertical-align: middle;
+    		line-height: 1.0em;
+    		font-size: 0.65em;
 		}
 
 /* Nav */
