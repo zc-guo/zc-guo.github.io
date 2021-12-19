@@ -1853,7 +1853,6 @@ input, select, textarea {
 
 		.helper-icon + div p + pre {
 			white-space: pre-line;
-			display: block;
     		color: white;
     		text-align: center;
     		vertical-align: middle;
