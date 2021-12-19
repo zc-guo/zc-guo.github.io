@@ -1851,15 +1851,6 @@ input, select, textarea {
     		line-height: 0.5em;
 		}
 
-		.helper-icon + div p + pre {
-			white-space: pre-line;
-    		color: white;
-    		text-align: center;
-    		vertical-align: middle;
-    		line-height: 1.0em;
-    		font-size: 0.65em;
-		}
-
 /* Nav */
 
 	#nav {
@@ -1933,7 +1924,7 @@ input, select, textarea {
 				-ms-transition: opacity .25s ease-in-out;
 				transition: opacity .25s ease-in-out;
 				width: 6.6em;
-				margin-left: -2.75em;
+				margin-left: -3.3em;
 				font-family: Georgia,Times,Times New Roman,serif; 
 			}
 
